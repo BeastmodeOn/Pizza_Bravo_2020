@@ -1,0 +1,226 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pizzabravo2020"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:7:22-77
+14
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:24:5-68
+18-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+21
+22    <application
+22-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:9:5-33:19
+23        android:allowBackup="true"
+23-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:15:9-40
+32        <activity android:name="com.example.pizzabravo2020.OrderStatus" />
+32-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:16:9-58
+32-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:16:19-46
+33        <activity android:name="com.example.pizzabravo2020.Cart" />
+33-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:17:9-42
+33-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:17:19-39
+34        <activity android:name="com.example.pizzabravo2020.FoodDetail" />
+34-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:18:9-48
+34-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:18:19-45
+35        <activity android:name="com.example.pizzabravo2020.FoodList" />
+35-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:19:9-46
+35-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:19:19-43
+36        <activity
+36-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:20:9-23:59
+37            android:name="com.example.pizzabravo2020.Home"
+37-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:21:13-33
+38            android:label="@string/title_activity_home"
+38-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:22:13-56
+39            android:theme="@style/AppTheme.NoActionBar" />
+39-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:23:13-56
+40        <activity android:name="com.example.pizzabravo2020.SignUp" />
+40-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:24:9-44
+40-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:24:19-41
+41        <activity android:name="com.example.pizzabravo2020.SignIn" />
+41-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:25:9-44
+41-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:25:19-41
+42        <activity android:name="com.example.pizzabravo2020.MainActivity" >
+42-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:26:9-32:20
+42-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:26:19-47
+43            <intent-filter>
+43-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:27:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:28:17-69
+44-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:28:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:30:17-77
+46-->C:\Users\Gilmar\Desktop\Mobile\PizzaBravo2020-20200129T104728Z-001\PizzaBravo2020\app\src\main\AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <meta-data
+50-->[com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\06fb8a8065cabe8051984a30b42ac492\jetified-firebase-ui-database-1.2.0\AndroidManifest.xml:14:9-16:69
+51            android:name="com.google.android.gms.version"
+51-->[com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\06fb8a8065cabe8051984a30b42ac492\jetified-firebase-ui-database-1.2.0\AndroidManifest.xml:15:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->[com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\06fb8a8065cabe8051984a30b42ac492\jetified-firebase-ui-database-1.2.0\AndroidManifest.xml:16:13-66
+53
+54        <service
+54-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+55            android:name="com.google.firebase.components.ComponentDiscoveryService"
+55-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\6c9783160ec0fe92a68d41293b673e6c\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+57            android:exported="false" >
+57-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+58            <meta-data
+58-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+59                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+59-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+61            <meta-data
+61-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+62                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+62-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+65                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+65-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+67        </service>
+68
+69        <receiver
+69-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+70            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+70-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+71            android:exported="true"
+71-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+72            android:permission="com.google.android.c2dm.permission.SEND" >
+72-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+73            <intent-filter>
+73-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+74                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+74-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+74-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+75            </intent-filter>
+76        </receiver>
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+82
+83        <provider
+83-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\6c9783160ec0fe92a68d41293b673e6c\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+84            android:name="com.google.firebase.provider.FirebaseInitProvider"
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\6c9783160ec0fe92a68d41293b673e6c\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+85            android:authorities="com.example.pizzabravo2020.firebaseinitprovider"
+85-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\6c9783160ec0fe92a68d41293b673e6c\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+86            android:exported="false"
+86-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\6c9783160ec0fe92a68d41293b673e6c\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+87            android:initOrder="100" />
+87-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\6c9783160ec0fe92a68d41293b673e6c\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+88
+89        <receiver
+89-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+90            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+90-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+91            android:enabled="true"
+91-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+92            android:exported="false" >
+92-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+93        </receiver>
+94        <receiver
+94-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+95            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+95-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+96            android:enabled="true"
+96-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+97            android:exported="true"
+97-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+98            android:permission="android.permission.INSTALL_PACKAGES" >
+98-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+99            <intent-filter>
+99-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+100                <action android:name="com.android.vending.INSTALL_REFERRER" />
+100-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+100-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+101            </intent-filter>
+102        </receiver>
+103
+104        <service
+104-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+105            android:name="com.google.android.gms.measurement.AppMeasurementService"
+105-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+106            android:enabled="true"
+106-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+107            android:exported="false" />
+107-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+108        <service
+108-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+109            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+109-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+110            android:enabled="true"
+110-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+112            android:permission="android.permission.BIND_JOB_SERVICE" />
+112-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+113
+114        <provider
+114-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+115            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+115-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+116            android:authorities="com.example.pizzabravo2020.lifecycle-process"
+116-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+117            android:exported="false"
+117-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+118            android:multiprocess="true" />
+118-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Gilmar\.gradle\caches\transforms-2\files-2.1\538e1bf036d9e31df32f9331477cf520\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+119    </application>
+120
+121</manifest>

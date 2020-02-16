@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "527581280528",
+    "firebase_url": "https://pizzabravo2020.firebaseio.com",
+    "project_id": "pizzabravo2020",
+    "storage_bucket": "pizzabravo2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527581280528:android:bf0eb8a2ee11bc3c528d95",
+        "android_client_info": {
+          "package_name": "com.example.pizzabravo2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527581280528-tt4c93778g2klme5tjjv9nb5mufjakjs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pizzabravo2020",
+            "certificate_hash": "b46ad0e48e6482bcf079990ba338ab95e37df0fa"
+          }
+        },
+        {
+          "client_id": "527581280528-i13csn7j2rlcvpdvvfim8ln75jcftvdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVqxtsPY6ddEnE7PFgW6CeClrTr6mzBog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527581280528-i13csn7j2rlcvpdvvfim8ln75jcftvdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
